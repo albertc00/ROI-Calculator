@@ -1,0 +1,785 @@
+.grid {
+    display: grid;
+    row-gap: 1.5rem;
+}
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: center;
+}
+#cbox-hero .copy-body {
+    margin: 2rem 0 4rem;
+}
+#cbox-hero h1 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--grey-400);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+#cbox-hero h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    line-height: 1.375;
+    color: var(--yellow-400);
+    font-family: "Work Sans", work-sans, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+#cbox-hero .copy-cta {
+    text-align: center;
+}
+#top #wrap_all #cbox-hero p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--grey-75);
+    margin: 0.85em 0;
+    text-align: left;
+}
+#top #wrap_all #cbox-hero .copy-cta a {
+    display: inline-block;
+    width: auto;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Work Sans", work-sans, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--yellow-400);
+    color: var(--blue-400);
+    border-radius: 5px;
+    box-shadow: 0px 8px 9px -6px rgba(95, 115, 128, 0.44);
+    cursor: pointer;
+    transition: all 300ms ease 0ms;
+    padding: 1.25rem 1.75rem;
+}
+#top #wrap_all #cbox-hero .copy-cta a:hover {
+    transform: translateX(0px) translateY(-5px);
+}
+
+#top #wrap_all #whats-hot .sub-hero-content {
+    display: grid;
+}
+
+#top #wrap_all #main .page-hero-outer {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+#top #wrap_all #main .front-page-hero-outer .heading-primary {
+color: rgba(255, 255, 255, 0.8);
+}
+#top #wrap_all #main .heading-primary {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #5f7380;
+    margin: 0.5rem 0;
+}
+#top #wrap_all #main .front-page-headline {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #ffca09;
+    font-family: "Work Sans", work-sans, sans-serif;
+    font-weight: 600;
+    text-align: inherit;
+    margin: 0;
+}
+#top #wrap_all #main .page-hero-desc {
+    margin: 2rem 0 4rem;
+}
+#top #wrap_all #main .page-hero-desc p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+#top #wrap_all #main .page-hero-cta {
+    text-align: center;
+}
+#top #wrap_all #main .page-cta-link {
+    display: inline-block;
+    width: auto;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Work Sans", work-sans, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--yellow-400);
+    color: var(--blue-400);
+    border-radius: 5px;
+    box-shadow: 0px 8px 9px -6px rgba(95, 115, 128, 0.44);
+    cursor: pointer;
+    transition: all 300ms ease 0ms;
+    padding: 1.25rem 1.75rem;
+}
+#top #wrap_all #main .page-cta-link:hover {
+    transform: translateX(0px) translateY(-5px);
+}
+#top #wrap_all #main .hero-image-wrapper {
+    display: none;
+}
+#cb_roi_calculator h2 {
+  font-family: "Work Sans",sans-serif;
+  font-weight: 700;
+  color: #231f20;
+  margin: .5rem 0 1.5rem;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+/** ROI Fields Styles **/
+
+body {
+    /* Callbox Brand Colors */
+      --cb-black-dark: #231f20;
+      
+      --cb-blue-normal: #014e89;
+      --cb-blue-dark: #063060;
+      --cb-blue-light: #196ed9;
+      --cb-blue-lighter: #aac0ce;
+      
+      --cb-gold-normal: #ffca09;
+      --cb-gold-light: #fffaed;
+      
+      --cb-blue-grey: #5f7380;
+    
+      --cb-red-orange: #fa450e;
+      --cb-green: #14b37d;
+    }
+    
+    h1.cb-hero-primary {
+      font-size: 3.5em;
+      font-weight: normal;
+      color: var(--cb-gold-normal);
+      letter-spacing: 0.06em;
+    }
+    
+    .cb-hero-secondary {
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: 0.06em;
+      color: #fff;
+      line-height: 1.9em;
+    }
+    
+    #cb_roi_calculator section h3 {
+      color: var(--cb-blue-normal);
+      font-size: 24px;
+      font-weight: bold;
+      margin: 12px 0 20px !important;
+    }
+    
+    #cb_roi_calculator table {
+      border-collapse: collapse;
+    }
+    
+    #cb_roi_calculator thead th {
+      padding: 15px;
+    }
+    
+    #cb_roi_calculator tbody tr > th:first-child {
+      text-align: left;
+    }
+    
+    #cb_roi_calculator tbody tr {
+      vertical-align: baseline;
+      border-bottom: 1px solid rgba(95,115,128,0.2);
+      background: transparent;
+    }
+    
+    #cb_roi_calculator td {
+      font-size: 16px;
+      border: none;
+    }
+    
+    #cb_roi_calculator p {
+      line-height: initial !important;
+    }
+    
+    #cb_roi_calculator h1,
+    #cb_roi_calculator h2,
+    #cb_roi_calculator h3,
+    #cb_roi_calculator h4,
+    #cb_roi_calculator h5,
+    #cb_roi_calculator thead,
+    .rc-label {
+      font-family: 'Work Sans', sans-serif !important;
+      letter-spacing: initial;
+    }
+    
+    .rc-label {
+      color: var(--cb-black-dark);
+      font-size: 18px !important;
+      font-weight: bold !important;
+      text-transform: initial;
+    }
+    
+    .rc-label > strong {
+      font-family: inherit !important;
+      color: inherit;
+    }
+    
+    .rc-description {
+      font-weight: normal;
+      font-size: 14px;
+      font-style: italic;
+      text-transform: initial;
+      margin-block-start: 10px !important;
+      margin-block-end: 0px !important;
+      color: rgba(95,115,128,0.75);
+    }
+    
+    .rc-slider-container {
+      --rc-slider-thumb-wh: 20px;
+      --rc-slider-thumb-color: #a2b3be;
+      --rc-track-color: rgba(95,115,128,0.15);
+      /* position: relative; */
+    }
+    
+    /* .rc-slider-container::before {
+      --rc-track-color: rgba(95,115,128,0.2);
+      content: '';
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 40%;
+      height: 2px;
+      background-color: var(--rc-track-color);
+      z-index: -1;
+      border: 2px solid var(--rc-track-color);
+      border-radius: 3px;
+      background-clip: padding-box;
+    } */
+    
+    .rc-slider {
+      cursor: pointer;
+      width: 100%;
+      background: transparent;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    
+    /* WebKit/Blink */
+    .rc-slider::-webkit-slider-thumb {
+      appearance: none;
+      -webkit-appearance: none;
+      height: var(--rc-slider-thumb-wh);
+      width: var(--rc-slider-thumb-wh);
+      border-radius: 50%;
+      border-color: var(--rc-slider-thumb-color);
+      background: var(--rc-slider-thumb-color);
+      cursor: pointer;
+      margin-top: calc((var(--rc-slider-thumb-wh)/2 - 1px) * -1);
+      transition: box-shadow 0.2s ease;
+    }
+    
+    /* Firefox */
+    .rc-slider::-moz-range-thumb {
+      height: var(--rc-slider-thumb-wh);
+      width: var(--rc-slider-thumb-wh);
+      border-radius: 50%;
+      border-color: var(--rc-slider-thumb-color);
+      background: var(--rc-slider-thumb-color);
+      cursor: pointer;
+      transition: box-shadow 0.2s ease;
+    }
+    
+    /* IE */
+    .rc-slider::-ms-thumb {
+      height: var(--rc-slider-thumb-wh);
+      width: var(--rc-slider-thumb-wh);
+      border-radius: 50%;
+      border-color: var(--rc-slider-thumb-color);
+      background: var(--rc-slider-thumb-color);
+      cursor: pointer;
+    }
+    
+    /* WebKit/Blink */
+    .rc-slider::-webkit-slider-runnable-track {
+      width: 100%;
+      height: 6px;
+      cursor: pointer;
+      background-color: var(--rc-track-color);
+      border-radius: 3px;
+      border: 1px solid var(--rc-track-color);
+      background-clip: padding-box;
+    }
+    
+    /* FireFox */
+    .rc-slider::-moz-range-track {
+      width: 100%;
+      height: 4px;
+      cursor: pointer;
+      background-color: var(--rc-track-color);
+      border-radius: 3px;
+      border: 1px solid var(--rc-track-color);
+      background-clip: padding-box;
+    }
+    
+    /* MS */
+    .rc-slider::-ms-track {
+      box-sizing: border-box;
+      background: transparent; 
+      border-color: transparent;
+      color: transparent;
+      width: 100%;
+      height: 2px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    
+    .rc-slider::-ms-fill-lower {
+      border-radius: 3px;
+      height: 2px;
+      background-color: var(--rc-slider-thumb-color);
+    }
+    
+    .rc-slider::-ms-fill-upper {
+      border-radius: 3px;
+      height: 2px;
+      background-color: var(--rc-track-color);
+    }
+    
+    .rc-slider-container:hover .rc-slider::-webkit-slider-thumb {
+      box-shadow: 0 0 0 12px rgba(162, 179, 190, 0.09);
+      transition: box-shadow 0.2s ease;
+    }
+    
+    .rc-slider-container:hover .rc-slider:-moz-range-thumb {
+      box-shadow: 0 0 0 12px rgba(162, 179, 190, 0.09);
+      transition: box-shadow 0.2s ease;
+    }
+    
+    #cb_roi_calculator input[type="number"] {
+      display: initial;
+      background-color: transparent;
+      width: 40%;
+      padding: 5px;
+      border: none;
+      border-color: transparent;
+      border-bottom: 1px solid rgba(95,115,128,0.7);
+      font-family: 'Lato', sans-serif !important;
+    }
+    
+    #cb_roi_calculator input[type="number"]:focus {
+      box-shadow: none !important;
+    }
+    
+    #cb_roi_calculator select.rc-select {
+      width: 40%;
+      padding: 5px;
+      background-color: transparent;
+      border: 1px solid rgba(95,115,128,0.7);
+      font-family: 'Lato', sans-serif;
+    }
+    
+    p.rc-output {
+      font-weight: bold;
+      font-size: 20px;
+      color: var(--cb-blue-normal);
+      letter-spacing: 0.04em !important;
+      font-family: 'Work Sans', sans-serif !important;
+    }
+    
+    p.rc-output * {
+      font-family: 'Work Sans', sans-serif !important;
+    }
+    
+    #quarterly_results {
+      border-collapse: collapse;
+      border: 1px solid rgba(95,115,128,0.2);
+    }
+    
+    #quarterly-results thead tr { 
+      background-color: var(--cb-blue-light);
+      color: #fff;
+    }
+    
+    #quarterly-results thead th {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    #quarterly-results tbody td {
+      color: var(--cb-black-dark);
+      text-align: center;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    
+    #quarterly-results tbody tr > td:last-child {
+      font-weight: bold;
+      color: var(--cb-blue-normal);
+    }
+    
+    .rc-container-parenthesis.loss,
+    .rc-container-negative.loss,
+    .rc-container-negative.loss *,
+    .rc-container-parenthesis.loss * {
+      color: var(--cb-red-orange);
+    }
+    
+    .rc-container-parenthesis.loss::before {
+      content: '(';
+    }
+    
+    .rc-container-parenthesis.loss::after {
+      content: ')';
+    }
+    
+    ul.cb-cards {
+      display: flex;
+      list-style: none;
+      margin-left: 0 !important;
+      padding-left: 0;
+      justify-content: space-between;
+    }
+    
+    ul.cb-cards > li {
+      border-radius: 13px;
+      padding: 10px 15px;
+      margin-left: 0 !important;
+      border: 1px solid var(--cb-green);
+      text-align: center;
+    }
+    
+    ul.cb-cards-4 > li {
+      flex-basis: calc(96%/4);
+    }
+    
+    ul.cb-cards > li:hover {
+      background-color: rgba(20, 179, 125, 0.03);
+      transition: background-color 0.3s ease;
+    }
+    
+    .rc-result {
+      font-size: 36px;
+      margin: 20px 0 !important;
+      color: var(--cb-green);
+    }
+    
+    #quarterly_results tbody tr:hover {
+      background-color: rgba(95,115,128,0.03);
+      transition: background-color 0.3s ease;
+    }
+    
+    @media only screen and (min-width: 1025px) {
+      /* #cb_roi_calculator {
+        margin: 0 calc(100%/12 * 1.25);
+      } */
+    
+      #cb_roi_calculator tbody tr > th:first-child {
+        padding: 20px 50px 20px 20px;
+      }
+    }
+    
+    @media only screen and (min-width: 991px) {
+      #cb_roi_calculator tbody th,
+      #cb_roi_calculator tbody td {
+        padding: 30px 10px 25px;
+      }
+    
+      #cb_roi_calculator tbody tr > th:first-child {
+        padding: 20px;
+      }
+    
+      .rc-slider-container {
+        width: calc(100% - 20px);
+      }
+    
+      #cb_roi_calculator section {
+        padding: 30px 20px;
+      }
+    
+      .rc-label {
+        margin-top: 1em !important;
+      }
+    
+      .cb-divider {
+        height: 14px;
+      }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      #cb_roi_calculator section {
+        padding: 30px 15px;
+      }
+    }
+    
+    @media only screen and (max-width: 989px) {
+      #cb_roi_calculator tbody th,
+      #cb_roi_calculator tbody td {
+        padding: 25px 10px 25px;
+      }
+    
+      #quarterly-results tbody th {
+        padding-left: 20px;
+      }
+    
+      #campaign-inputs tbody tr:not(:first-child) td:last-child {
+        display: none;
+      }
+      
+      #cb_roi_calculator table,
+      #cb_roi_calculator thead,
+      #cb_roi_calculator tbody,
+      #cb_roi_calculator th,
+      #cb_roi_calculator tr,
+      #cb_roi_calculator td {
+        display: block;
+      }
+    
+      #quarterly-results thead tr {
+        position: absolute;
+            top: -9999px;
+            left: -9999px;
+      }
+    
+      #quarterly-results tbody tr:last-child {
+        border-bottom: none;
+      }
+    
+      #quarterly-results tr td {
+        /* Behave  like a "row" */
+        text-align: left !important;
+            border: none; 
+            position: relative;
+            padding: 20px 20px 20px 30% !important;
+      }
+    
+      #quarterly-results tr td:not(:last-child) {
+        border-bottom: 1px solid rgba(95,115,128,0.2);
+      }
+      
+      #quarterly-results td::before {
+        position: absolute;
+            /* Top/left values mimic padding */
+            top: 20px;
+        left: 20px;
+        padding-right: 10px;
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+            white-space: nowrap;
+      }
+    
+      #quarterly-results td:nth-of-type(1)::before { content: attr(data-col-label); }
+        #quarterly-results td:nth-of-type(2)::before { content: attr(data-col-label); }
+        #quarterly-results td:nth-of-type(3)::before { content: attr(data-col-label); }
+        #quarterly-results td:nth-of-type(4)::before { content: attr(data-col-label); }
+      #quarterly-results td:nth-of-type(5)::before { content: attr(data-col-label); }
+      
+      ul.cb-cards {
+        display: block;
+      }
+    
+      ul.cb-cards > li {
+        padding: 30px 15px 10px;
+      }
+    
+      ul.cb-cards > li:not(:last-child) {
+        margin-bottom: 25px !important;
+      }
+    
+      .cb-divider {
+        height: 25px;
+      }
+    }
+    
+    @media only screen and (max-width: 767px) {
+      #cb_roi_calculator section {
+        padding: 30px 10px;
+      }
+    }
+    
+    section#contact {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    
+    h3.rc-callout-primary {
+      font-size: 32px !important;
+      text-align: center;
+    }
+    
+    p.rc-callout-secondary {
+      font-size: 20px;
+      color: var(--cb-blue-grey);
+      text-align: center;
+    }
+    #top #wrap_all #cb_roi_calculator input[type="number"] {
+        background-color: #e8e8e8;
+        border: unset;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid rgb(6, 48, 96) !important;
+        color: #444;
+    }
+    #cb_roi_calculator .grid-dollars .rc-symbol, 
+    #cb_roi_calculator .grid-percent .rc-symbol {
+        color: #063060;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    .grid-dollars{
+        display: grid;
+        grid-template-columns: 2ch auto;
+        align-items: center;
+    }
+    .grid-percent{
+        display: grid;
+        grid-template-columns: auto 2ch;
+        align-items: center;
+        grid-gap: 10px;
+    }
+    #top #wrap_all .grid-dollars input, 
+    #top #wrap_all .grid-percent input{
+        margin-bottom: 0;
+    }
+    #top #wrap_all #cb_roi_calculator input[type="number"]::-webkit-inner-spin-button,
+    #top #wrap_all #cb_roi_calculator input[type="number"]::-webkit-outer-spin-button
+    {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    #top #wrap_all #cb_roi_calculator input[type="number"]{
+    -moz-appearance: textfield;
+    margin: 0;
+    }
+
+/** END of ROI Fields Styles **/
+
+@media screen and (max-width: 767px){
+  #top #wrap_all #cb_roi_calculator .cboxContainerY {
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+  #top #wrap_all #cb_roi_calculator h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 640px) {
+    #top #wrap_all #main .page-hero-inner {
+        text-align: center;
+        padding: 0 8.3333333333%;
+    }
+}
+@media (min-width: 1024px) {
+    #cbox-hero .grid-2 {
+        background-image: url(/wp-content/uploads/2022/03/webinar-hero.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 45% auto;
+        background-attachment: scroll;
+    }
+
+    .webinar-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+    }
+
+    .webinar-title {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+
+    .section-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+    .grid.grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .grid.grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
+
+    .grid.grid-4 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+    }
+    #top #wrap_all #main .page-hero-outer {
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        gap: 3rem;
+    }
+    #top #wrap_all #main .page-hero-left {
+        max-width: 614.4px;
+        padding-left: 8.3333333333vw;
+        padding-right: 0;
+    }
+    #top #wrap_all #main .page-hero-inner {
+        text-align: left;
+        padding: 0;
+    }
+    #top #wrap_all #main .page-hero-inner {
+        text-align: left;
+    }
+    #top #wrap_all #main .front-page-hero-outer .heading-primary {
+        color: #5f7380;
+    }
+    #top #wrap_all #main .front-page-headline {
+        color: var(--yellow-400);
+    }
+    #top #wrap_all #main .page-hero-desc {
+        padding-right: 3.5rem;
+    }
+    #top #wrap_all #main .page-hero-cta {
+        text-align: left;
+    }
+    #top #wrap_all #main .hero-image-wrapper {
+        display: block;
+    }
+    #top #wrap_all #main .hero-image {
+        object-fit: cover;
+        object-position: left;
+    }
+}
+@media (min-width: 1280px) {
+    #cbox-hero .page-hero-outer {
+        background-position-x: 640px;
+    }
+
+    #cbox-hero .grid-2 {
+        background-image: url(/wp-content/uploads/2022/03/webinar-hero.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 45% auto;
+        background-attachment: scroll;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+
+    #top #wrap_all #main .page-hero-outer {
+        grid-template-columns: 1fr 1fr;
+    }
+    #top #wrap_all #main .page-hero-left {
+        margin-left: auto;
+        max-width: calc((1280px - 3rem) / 2);
+        padding-left: 106.6666666667px;
+    }
+    #top #wrap_all #main .page-hero-desc {
+        padding-right: 0;
+    }
+}
